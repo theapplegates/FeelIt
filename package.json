@@ -22,7 +22,7 @@
   "scripts": {
     "preinstall": "npx npm-force-resolutions",
     "algolia": "atomic-algolia",
-    "build": "rm -f -r exampleSite/public && hugo -v --source=exampleSite --themesDir ../ --gc",
+    "build": "rm -f -r exampleSite/public && hugo -v --source=exampleSite --themesDir ../ --gc && ALGOLIA_APP_ID=A9EPX0IYXL ALGOLIA_ADMIN_KEY=4e496895063a46dbe39b26863d5103b8 ALGOLIA_INDEX_NAME=loveit ALGOLIA_INDEX_FILE=/opt/build/repo/index.json npm run algolia",
     "build-lunr-segmentit": "browserify src/lib/lunr.segmentit.js -o assets/lib/lunr/lunr.segmentit.js -t babelify --presets @babel/preset-env --presets minify",
     "purgejs": "mkdir -p exampleSite/assets/js && sed '593,597d;615,636d;639,642d;727d' assets/js/theme.js > exampleSite/assets/js/theme.js",
     "deploy": "npm run purgejs && hugo -v --source=exampleSite --themesDir ../ --gc --minify",
