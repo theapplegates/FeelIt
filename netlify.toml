@@ -1,6 +1,6 @@
 [build]
 publish = "exampleSite/public"
-command = "rm -f -r exampleSite/public && hugo -v --source=exampleSite --themesDir ../ --gc
+command = "rm -f -r exampleSite/public && hugo -v --source=exampleSite --themesDir ../ --gc"
 
 [build.environment]
 HUGO_VERSION = "0.88.1"
