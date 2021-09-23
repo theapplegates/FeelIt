@@ -130,10 +130,9 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         # whether to use the absolute URL based on the baseURL in search index
         absoluteURL = false
         [languages.en.params.search.algolia]
-          index = "index.en"
-          appID = "UAL0NNJWXE"
-          searchKey = "7b7fbdfb7ee82ee61901f2c6b09b05be"
-
+        index = "loveit"
+        appID = "A9EPX0IYXL"
+        searchKey = "b92a29d2cedfdeebf130dae7047a9af1"
       # About page config
       [languages.en.params.about]
         # whether to enable profile on about page
