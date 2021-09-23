@@ -1,6 +1,6 @@
 [build]
 publish = "exampleSite/public"
-command = "rm -f -r exampleSite/public && hugo -v --source=exampleSite --themesDir ../ --gc && ALGOLIA_APP_ID=A9EPX0IYXL ALGOLIA_ADMIN_KEY=4e496895063a46dbe39b26863d5103b8 ALGOLIA_INDEX_NAME=loveit ALGOLIA_INDEX_FILE=/opt/build/repo/exampleSite/public/index.json npm run algolia"
+command = "rm -f -r exampleSite/public && hugo -v --source=exampleSite --themesDir ../ --gc && ALGOLIA_APP_ID=A9EPX0IYXL ALGOLIA_ADMIN_KEY=4e496895063a46dbe39b26863d5103b8 ALGOLIA_INDEX_NAME=loveit ALGOLIA_INDEX_FILE=/opt/build/repo/public/index.json npm run algolia"
 
 [build.environment]
 HUGO_VERSION = "0.88.1"
