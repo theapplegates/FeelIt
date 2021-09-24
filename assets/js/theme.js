@@ -750,3 +750,5 @@ if (document.readyState !== 'loading') {
 } else {
     document.addEventListener('DOMContentLoaded', themeInit, false);
 }
+const cl = cloudinary.Cloudinary.new({ cloud_name: "paulportfolio" });
+cl.responsive();
