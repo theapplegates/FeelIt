@@ -20,21 +20,28 @@ lightgallery: true
 ---
 
 <img
-data-src="https://res.cloudinary.com/paulportfolio/image/upload/hillshire-farm.jpg"
+data-src="https://res.cloudinary.com/paulportfolio/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1632259687/hillshire-farm.jpg"
 alt=""
 class="cld-responsive"
 />
 
-{{< cld src="hillshire-farm.jpg" alt="" caption="Sandwich" >}}
+<img
+data-src="https://res.cloudinary.com/paulportfolio/image/upload/v1632411637/laptop.jpg"
+alt="Laptop"
+class="cld-responsive"
+/>
+
+<img
+data-src="https://res.cloudinary.com/paulportfolio/image/upload/v1632495638/almost-there.jpg"
+alt="BeachStairs"
+class="cld-responsive"
+/>
 
 
-{{< cld src="almost-there.jpg" alt="" caption="Almost-at-the-sea" >}}
 
 
-{{< cld src="laptop.jpg" alt="" caption="Laptop" >}}
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files.
-
 <!--more-->
 
 {{< admonition >}}
