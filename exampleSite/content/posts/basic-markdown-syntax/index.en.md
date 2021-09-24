@@ -19,6 +19,13 @@ categories: ["Markdown"]
 lightgallery: true
 ---
 
+<img
+data-src="https://res.cloudinary.com/paulportfolio/image/upload/hillshire-farm.jpg"
+alt=""
+class="cld-responsive"
+/>
+
+
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files.
 
 <!--more-->
