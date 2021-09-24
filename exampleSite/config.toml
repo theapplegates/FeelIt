@@ -9,6 +9,8 @@ theme = "./"
 # 主题目录
 themesDir = "../.."
 
+cloudinary_url = "https://res.cloudinary.com/paulportfolio/image/upload"
+
 # website title
 # 网站标题
 title = "FeelIt"

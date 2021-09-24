@@ -25,6 +25,7 @@ alt=""
 class="cld-responsive"
 />
 
+{{< cld src="hillshire-farm.jpg" alt="" caption="Sandwich" >}}
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files.
 
